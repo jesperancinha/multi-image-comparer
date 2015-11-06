@@ -22,3 +22,7 @@ _testmain.go
 *.exe
 *.test
 *.prof
+
+# Extras
+**/com.googlecode.goclipse.core.prefs
+**/bin
