@@ -24,5 +24,4 @@ _testmain.go
 *.prof
 
 # Extras
-**/com.googlecode.goclipse.core.prefs
 **/bin

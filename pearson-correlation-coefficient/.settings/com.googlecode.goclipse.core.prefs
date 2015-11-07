@@ -1,0 +1,8 @@
+com.googlecode.goclipse.documentor.path=/usr/lib/go/bin/godoc
+com.googlecode.goclipse.formatter.path=/usr/lib/go/bin/gofmt
+com.googlecode.goclipse.goarch=
+com.googlecode.goclipse.goos=
+com.googlecode.goclipse.gopath=\:\:/opt/go/multi-image-comparer/lib-multi-comparer\:/opt/go/multi-image-comparer/pearson-correlation-coefficient
+com.googlecode.goclipse.goroot=/usr/lib/go
+eclipse.preferences.version=1
+toolchain_prefs.use_project_settings=true
