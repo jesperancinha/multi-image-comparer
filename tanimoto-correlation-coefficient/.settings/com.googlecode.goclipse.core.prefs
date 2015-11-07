@@ -1,0 +1,9 @@
+build_targets=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<build_targets xmlns\="com.googlecode.goclipse.core">\n<target config\="./... \#build" enabled\="true"/>\n<target config\="./... \#build-tests" enabled\="false"/>\n<target config\="./... \#[run-tests]" enabled\="false"/>\n</build_targets>\n
+com.googlecode.goclipse.documentor.path=/usr/lib/go/bin/godoc
+com.googlecode.goclipse.formatter.path=/usr/lib/go/bin/gofmt
+com.googlecode.goclipse.goarch=
+com.googlecode.goclipse.goos=
+com.googlecode.goclipse.gopath=\:\:/opt/go/multi-image-comparer/lib-multi-comparer\:/opt/go/multi-image-comparer/tanimoto-correlation-coefficient
+com.googlecode.goclipse.goroot=/usr/lib/go
+eclipse.preferences.version=1
+toolchain_prefs.use_project_settings=true

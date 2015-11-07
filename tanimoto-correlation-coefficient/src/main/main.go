@@ -1,10 +1,10 @@
 package main
 
 import (
-	"com/steelzack/multicomparer"
 	"fmt"
 	"image"
 	"os"
+	"com/steelzack/multicomparer"
 )
 
 func main() {
@@ -24,9 +24,11 @@ func main() {
 	defer fImg4.Close()
 	img4, _, _ := image.Decode(fImg4)
 
-	ratio12 := getPCC(img1, img2, multicomparer.B)
-	ratio34 := getPCC(img3, img4, multicomparer.B)
+
+	ratio12 := getTCC(img1, img2, multicomparer.B)
+	ratio34 := getTCC(img3, img4, multicomparer.B)
 
 	fmt.Println("Ratio for 1 and 2:", ratio12)
 	fmt.Println("Ratio for 3 and 4:", ratio34)
 }
+
