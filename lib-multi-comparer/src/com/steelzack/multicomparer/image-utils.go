@@ -2,6 +2,7 @@ package multicomparer
 
 import (
 	"image"
+	_ "image/jpeg"
 )
 
 const (
