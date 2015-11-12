@@ -5,7 +5,7 @@ import (
 	// https://github.com/golang/go/issues/10389
 	// http://www.goinggo.net/2014/09/go-compiler-nil-pointer-checks.html
 	_ "image/jpeg"
-	"github.com/steelzack/lib-multi-comparer/multicomparer"
+	"github.com/steelzack/images/points"
 	"image"
 	"math"
 )
