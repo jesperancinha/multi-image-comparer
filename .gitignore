@@ -25,6 +25,5 @@ _testmain.go
 
 # Extras
 **/bin
-**/github.com/davecgh
-**/github.com/pmezard
-**/github.com/stretchr
+lib
+**/pkg

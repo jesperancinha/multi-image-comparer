@@ -1,12 +1,12 @@
 package main
 
 import (
+	"github.com/steelzack/lib-multi-comparer/multicomparer"
 	// Needs to be here to avoid nil error:
 	// https://github.com/golang/go/issues/10389
 	// http://www.goinggo.net/2014/09/go-compiler-nil-pointer-checks.html
-	"com/steelzack/multicomparer"
-	"image"
 	_ "image/jpeg"
+	"image"
 	"math"
 )
 
