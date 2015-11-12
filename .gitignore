@@ -27,3 +27,4 @@ _testmain.go
 **/bin
 lib
 **/pkg
+**/github.com
