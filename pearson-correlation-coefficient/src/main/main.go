@@ -1,7 +1,7 @@
 package main
 
 import (
-	"com/steelzack/multicomparer"
+	"github.com/steelzack/lib-multi-comparer/multicomparer"
 	"fmt"
 	"image"
 	"os"
