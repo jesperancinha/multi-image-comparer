@@ -28,3 +28,31 @@ _testmain.go
 lib
 **/pkg
 **/github.com
+
+### MAC OS
+**/.DS_Store
+
+### Intellij
+*.iml
+*.ipr
+*.iws
+.idea
+
+### Eclipse
+.classpath
+.settings
+.project
+**/build/
+**/bin/
+**/build-by-eclipse/
+
+### Gradle
+.gradle
+gradle
+gradlew
+gradlew.bat
+out
+
+### IDE
+target
+libs
