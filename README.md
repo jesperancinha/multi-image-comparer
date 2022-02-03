@@ -6,7 +6,13 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/fa7b5620af624b0a8206d3e28e02cfb6)](https://www.codacy.com/app/jofisaes/multi-image-comparer?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jesperancinha/multi-image-comparer&amp;utm_campaign=Badge_Grade)
 [![codebeat badge](https://codebeat.co/badges/ebeaaef7-afd6-4c6c-9002-003c5bcc3b24)](https://codebeat.co/projects/github-com-jesperancinha-multi-image-comparer-master)
 
-## Technologies used
+[![GitHub language count](https://img.shields.io/github/languages/count/jesperancinha/multi-image-comparer.svg)](#)
+[![GitHub top language](https://img.shields.io/github/languages/top/jesperancinha/multi-image-comparer.svg)](#)
+[![GitHub top language](https://img.shields.io/github/languages/code-size/jesperancinha/multi-image-comparer.svg)](#)
+
+---
+
+## Tech Stack
 
 ---
 
@@ -15,6 +21,73 @@
 ---
 
 Implements most common used methods for image comparison with the goal of making a case study between the different proposed algorithms
+
+
+## How to build
+
+```shell
+go get -t -v github.com/stretchr/testify/assert
+```
+
+Check that the GO properties are correctly set:
+
+### 1.  MAC-OS
+
+```shell
+GOPATH=/Users/<username>/go
+GOROOT=/usr/local/opt/go/libexec
+GO111MODULE=auto
+```
+
+>GO111MODULE can be unset in most test cases.
+
+## How to run
+
+Go to points directory:
+
+```shell
+cd pearson-correlation-coefficient
+```
+
+or
+
+```shell
+cd pearson-correlation-coefficient
+```
+
+### 1.  Test
+
+```shell
+go test
+```
+
+### 2.  Coverage
+
+```shell
+go test --cover
+```
+### 3.  Coverage with .out file
+
+```shell
+go test -coverprofile=coverage.out
+```
+
+### 4.  Coverage with .html file
+
+```shell
+go test -coverprofile=coverage.out && go tool cover -html=coverage.out 
+```
+
+## How to install Go Lang
+
+```shell
+brew install golang
+```
+
+## References
+
+-   [How To Install Go and Set Up a Local Programming Environment on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-install-go-and-set-up-a-local-programming-environment-on-ubuntu-18-04)
+-   [How To Install and Set Up a Local Programming Environment for Go](https://www.digitalocean.com/community/tutorial_series/how-to-install-and-set-up-a-local-programming-environment-for-go)
 
 ## About me 👨🏽‍💻🚀🏳️‍🌈
 

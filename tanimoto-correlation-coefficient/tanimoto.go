@@ -1,12 +1,12 @@
 package main
 
 import (
+	"github.com/jesperancinha/images-go/points"
+	"image"
 	// Needs to be here to avoid nil error:
 	// https://github.com/golang/go/issues/10389
 	// http://www.goinggo.net/2014/09/go-compiler-nil-pointer-checks.html
 	_ "image/jpeg"
-	"github.com/steelzack/images/points"
-	"image"
 	"math"
 )
 
@@ -23,7 +23,7 @@ func getTCC(img1 image.Image, img2 image.Image, channel int) float64 {
 		for y := 0; y < dotHeight; y++ {
 			point1 := multicomparer.GetChannelValue(img1, x, y, channel)
 			point2 := multicomparer.GetChannelValue(img2, x, y, channel)
-			
+
 			prod12 += point1 * point2
 			prod1to2 += math.Pow(point1, 2)
 			prod2to2 += math.Pow(point2, 2)

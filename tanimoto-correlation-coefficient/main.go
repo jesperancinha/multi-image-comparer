@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/steelzack/images/points"
 	"fmt"
+	"github.com/jesperancinha/images-go/points"
 	"image"
 	"os"
 )

@@ -56,3 +56,6 @@ out
 ### IDE
 target
 libs
+
+# GoLang
+coverage.out
