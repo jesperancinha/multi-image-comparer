@@ -10,7 +10,9 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/fa7b5620af624b0a8206d3e28e02cfb6)](https://www.codacy.com/app/jofisaes/multi-image-comparer?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jesperancinha/multi-image-comparer&amp;utm_campaign=Badge_Grade)
 [![codebeat badge](https://codebeat.co/badges/ebeaaef7-afd6-4c6c-9002-003c5bcc3b24)](https://codebeat.co/projects/github-com-jesperancinha-multi-image-comparer-master)
 
+[![Codacy Badge](https://app.codacy.com/project/badge/Coverage/fa7b5620af624b0a8206d3e28e02cfb6)](https://www.codacy.com/gh/jesperancinha/multi-image-comparer/dashboard?utm_source=github.com&utm_medium=referral&utm_content=jesperancinha/multi-image-comparer&utm_campaign=Badge_Coverage)
 [![Coverage Status](https://coveralls.io/repos/github/jesperancinha/multi-image-comparer/badge.svg?branch=master)](https://coveralls.io/github/jesperancinha/multi-image-comparer?branch=master)
+[![codecov](https://codecov.io/gh/jesperancinha/multi-image-comparer/branch/master/graph/badge.svg?token=NdKguIXZQY)](https://codecov.io/gh/jesperancinha/multi-image-comparer)
 
 [![GitHub language count](https://img.shields.io/github/languages/count/jesperancinha/multi-image-comparer.svg)](#)
 [![GitHub top language](https://img.shields.io/github/languages/top/jesperancinha/multi-image-comparer.svg)](#)
