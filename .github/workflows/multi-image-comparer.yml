@@ -13,6 +13,14 @@ jobs:
       with:
        go-version: '1.17.6'
 
+    - name: Install Python Dependencies
+      run:
+        sudo apt-get -y install python3-pip &&
+        python -m pip install --upgrade pip &&
+        pip3 install omni-coveragereporter &&
+        pip3 install GitPython &&
+        pip3 install requests
+
     - name: Install Go Packages Pearson Correlation Coefficient
       run: cd pearson-correlation-coefficient && source setup.sh && go get -t -v github.com/stretchr/testify/assert && go get -t -v github.com/jesperancinha/images-go/points
 
@@ -20,7 +28,14 @@ jobs:
       run: cd tanimoto-correlation-coefficient && source setup.sh && go get -t -v github.com/stretchr/testify/assert && go get -t -v github.com/jesperancinha/images-go/points
 
     - name: Run Go Tests Pearson Correlation Coefficient
-      run: cd pearson-correlation-coefficient && source setup.sh && go test -coverprofile=coverage.out
+      run: cd pearson-correlation-coefficient && source setup.sh && go test -coverprofile=../coverage-pc.out
 
     - name: Run Go Tests Tanimoto Correlation Coefficient
-      run: cd tanimoto-correlation-coefficient && source setup.sh && go test -coverprofile=coverage.out
+      run: cd tanimoto-correlation-coefficient && source setup.sh && go test -coverprofile=../coverage-tc.out
+
+    - name: Send reports
+      run: omni_coveragereporter_python.py
+      env:
+         COVERALLS_REPO_TOKEN: ${{ secrets.COVERALLS_REPO_TOKEN }}
+         CODACY_PROJECT_TOKEN: ${{ secrets.CODACY_PROJECT_TOKEN }}
+         CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
