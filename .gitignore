@@ -57,5 +57,6 @@ out
 target
 libs
 
-# GoLang
+# GoLangs
 coverage.out
+coverage*.out
