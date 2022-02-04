@@ -12,6 +12,10 @@ func main() {
 	filename1 := arguments[1]
 	filename2 := arguments[2]
 
+	compareImages(filename1, filename2)
+}
+
+func compareImages(filename1 string, filename2 string) {
 	fImg1, _ := os.Open(filename1)
 	defer fImg1.Close()
 	img1, _, _ := image.Decode(fImg1)
