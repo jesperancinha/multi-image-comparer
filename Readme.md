@@ -97,7 +97,7 @@ brew install golang
 -   [How To Install Go and Set Up a Local Programming Environment on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-install-go-and-set-up-a-local-programming-environment-on-ubuntu-18-04)
 -   [How To Install and Set Up a Local Programming Environment for Go](https://www.digitalocean.com/community/tutorial_series/how-to-install-and-set-up-a-local-programming-environment-for-go)
 
-## About me 👨🏽‍💻🚀🏳️‍🌈
+## About me
 
 [![alt text](https://raw.githubusercontent.com/jesperancinha/project-signer/master/project-signer-templates/icons-20/JEOrgLogo-20.png "João Esperancinha Homepage")](http://joaofilipesabinoesperancinha.nl)
 [![GitHub followers](https://img.shields.io/github/followers/jesperancinha.svg?label=Jesperancinha&style=social "GitHub")](https://github.com/jesperancinha)
@@ -106,6 +106,8 @@ brew install golang
 | [Sessionize](https://sessionize.com/joao-esperancinha/)
 | [Spotify](https://open.spotify.com/user/jlnozkcomrxgsaip7yvffpqqm?si=b54b89eae8894960)
 | [Medium](https://medium.com/@jofisaes)
+| [YouTube](https://www.youtube.com/@joaoesperancinha/featured)
+| [Instagram](https://www.instagram.com/joaofisaes/)
 | [Buy me a coffee](https://www.buymeacoffee.com/jesperancinha)
 | [Credly Badges](https://www.credly.com/users/joao-esperancinha)
 | [Google Apps](https://play.google.com/store/apps/developer?id=Joao+Filipe+Sabino+Esperancinha)
