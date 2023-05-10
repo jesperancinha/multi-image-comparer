@@ -20,16 +20,9 @@
 
 ---
 
-## Tech Stack
+## Technologies used
 
----
-
-[![alt text](https://raw.githubusercontent.com/jesperancinha/project-signer/master/project-signer-templates/icons-50/go-lang-50.png "Java")](https://golang.org/)
-
----
-
-Implements most common used methods for image comparison with the goal of making a case study between the different proposed algorithms
-
+Please check the [TechStack.md](TechStack.md) file for details.
 
 ## How to build
 
